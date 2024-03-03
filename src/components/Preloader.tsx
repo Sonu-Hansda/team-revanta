@@ -5,7 +5,7 @@ interface PreloaderProps{
 
 function Preloader(props:PreloaderProps) {
   return (
-    <div className={`fixed top-0 left-0 h-screen w-screen bg-slate-950 flex flex-col justify-center items-center ${props.end? "-translate-y-full" : ""} transition-all duration-300 ease-linear`}>
+    <div className={`fixed top-0 left-0 h-screen w-screen bg-slate-950 flex flex-col justify-center items-center ${props.end? "-translate-y-full" : ""} transition-all duration-300 ease-linear z-50`}>
     <SVGIcon/>
     {/* <h2 className="text-white text-5xl font-bold">
         Team 

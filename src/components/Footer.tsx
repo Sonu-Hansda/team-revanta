@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaLinkedinIn, FaFacebookF } from "
 function Footer() {
   return (
     <footer className="bg-slate-900">
-        <div className=" mx-auto grid grid-cols-4 gap-x-4 p-12 text-white">
+        <div className=" mx-auto grid grid-cols-1 md:grid-cols-4 gap-y-4 md:gap-y-0 md:gap-x-4 p-12 text-white">
           <div >
             <h2 className="text-xl font-bold">USEFUL LINKS</h2>
             <ul>
@@ -14,7 +14,7 @@ function Footer() {
               <li>Contact us</li>
             </ul>
           </div>
-          <div className="px-4">
+          <div className="md:px-4">
             <h2 className="text-xl font-bold">MANUFACTURING</h2>
             <p>
             Sokhi Enterprise Pvt Ltd sponsors us to do fabrication works.
