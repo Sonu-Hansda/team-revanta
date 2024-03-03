@@ -5,6 +5,9 @@ function WorkPortfolio() {
         <div className="bg-green-400 py-4 px-2 text-center text-2xl font-bold underline underline-offset-4 text-white">
         Our Work <span className="text-slate-800">Portfolio</span>
         </div>
+        <div className="p-12 border">
+          TODO: Images To be inserted
+        </div>
            </section>
   )
 }

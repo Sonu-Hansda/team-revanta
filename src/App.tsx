@@ -5,6 +5,7 @@ import Contact from "./components/Contact";
 import WorkPortfolio from "./components/WorkPortfolio";
 import { useEffect, useState } from "react";
 import Preloader from "./components/Preloader";
+
 function App() {
   const [loading,setLoading] = useState<Boolean>(true);
 
@@ -19,6 +20,7 @@ function App() {
     <>
     <Preloader end={!loading} />
       <Navbar/>
+    
       <main className="w-4/5 md:w-3/4 mx-auto py-8">
         <WorkPortfolio/>
        <Achievements/>
